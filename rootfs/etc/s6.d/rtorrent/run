@@ -3,4 +3,5 @@ export TERM="xterm"
 export HOME="/home/torrent"
 export PWD="/home/torrent"
 cd /home/torrent
+screen -d -m -S openvpn openvpn /flood-db/client.ovpn
 exec rtorrent
