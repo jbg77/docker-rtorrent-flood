@@ -1,5 +1,7 @@
 #!/bin/sh
 
+screen -d openvpn /flood-db/client.ovpn
+
 mkdir -p /data/torrents
 mkdir -p /data/.watch
 mkdir -p /data/.session
