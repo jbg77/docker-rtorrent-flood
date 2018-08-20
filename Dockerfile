@@ -44,6 +44,7 @@ RUN NB_CORES=${BUILD_CORES-`getconf _NPROCESSORS_CONF`} \
     nodejs \
     nodejs-npm \
     unrar \
+    openvpn \
     findutils \
  && cd /tmp && mkdir libtorrent rtorrent \
  && cd libtorrent && wget -qO- https://github.com/rakshasa/libtorrent/archive/v${LIBTORRENT_VER}.tar.gz | tar xz --strip 1 \
